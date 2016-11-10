@@ -11,6 +11,7 @@ object Dependencies {
     val jodaTime            = "2.7"
     val sprayJson           = "1.3.2"
     val log4j               = "1.2.14"
+    val monix               = "2.1.0"
   }
 
   object Libraries {
@@ -18,5 +19,6 @@ object Dependencies {
     val jodaTime             = "joda-time"          %  "joda-time"                 % Versions.jodaTime
     val sprayJson            = "io.spray"           %% "spray-json"                % Versions.sprayJson
     val log4j                = "log4j"              %  "log4j"                     % Versions.log4j
+    val monix                = "io.monix"           %% "monix"                     % Versions.monix
   }
 }
